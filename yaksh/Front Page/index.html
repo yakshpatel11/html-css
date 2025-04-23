@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .parentdiv {
+       
+        height: 600px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 15px;
+        display: flex;
+        width: 850px;
+        margin: auto;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    #button {
+        background-color: black;
+        width: 120px;
+        color: white;
+        border-radius: 50px;
+        height: 25px;
+        text-align: center;
+
+    }
+
+    #number {
+        font-size: 50px;
+    }
+
+    #cart {
+        background-color: rgb(23, 26, 211);
+        color: white;
+        border-radius: 15px;
+        width: 300px;
+        height: 60px;
+    }
+
+    .cartdiv {
+        display: flex;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 195px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 180px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+    }
+
+    .wishlistdiv {
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 190px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+    }
+
+    .parentofbutton {
+        display: flex;
+        gap: 20px;
+    }
+</style>
+
+<body>
+    <div class="parentdiv">
+        <div class="imagediv">
+            <img src="https://cpimg.tistatic.com/06994445/b/4/Audio-technica-Ath-40x-Professional-Headphone.png"
+                height="400px" alt="">
+        </div>
+        <div class="information">
+            <h4 id="button">Free Shipping</h4>
+            <h3>Razer Kraken Kitty Edt Gaming <br> Headset Quartz</h3>
+            <p style="text-decoration-line:line-through">$799</p>
+            <h1 id="number">$599</h1>
+            <p style="color: rgb(151, 151, 151);">This Offer Is Valid Until April 3rd Or As Long As Stocks Lasts!</p>
+            <button id="cart">Add To Cart</button>
+            <h5>50+ pcs in stock</h5>
+            <div class="parentofbutton">
+                <div class="cartdiv">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5163/5163709.png" height="50px" alt="">
+                    <h3>Add To Cart</h3>
+                </div>
+                <div class="wishlistdiv">
+                    <img src="https://cdn3.iconfinder.com/data/icons/marketing-e-commerce/128/icons_-_marketing-41-512.png"
+                        height="50px" alt="">
+                    <h3>Add To Wishlist</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,475 @@
+    /*media screen start from here */
+    @media all and (min-width : 320px) and (max-width : 767px) {
+        .button {
+
+            color: white;
+          
+            border: #6DDEDD;
+            width: 100px;
+            height: 50px;
+            border-radius: 25px;
+            margin-top: 5px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: progress;
+            margin: auto;
+
+        }
+
+        .nav {
+
+           
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .midpart {
+          
+            flex-direction: column;
+
+        }
+
+        .containt {
+        
+            height: 80px;
+            margin-top: 50px;
+        }
+        .login {
+          margin-left: -1250px;
+            margin-right: -100px;
+         
+        }
+        .button {
+            padding: 20px 20px 20px 20px;
+        }
+
+    }
+
+    /*media screen end here */
+
+    .getbutton {
+        width: 150px;
+
+        height: 40px;
+        border-radius: 50px;
+        background-color: #2BD0CF;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 15px;
+        border: #2BD0CF;
+        margin: auto;
+
+
+    }
+
+    .morethan {
+        font-size: 30px;
+        margin: auto;
+    }
+
+    .midpart {
+        font-size: 16px;
+        padding-left: 60px;
+        margin: auto;
+    }
+
+    .shortly {
+        padding-left: 60px;
+    }
+
+    .main {
+
+        height: 80vh;
+        background-color: white;
+
+    }
+
+    .nav {
+        display: flex;
+        gap: 30px;
+    }
+
+    .button {
+        color: white;
+        background-color: #6DDEDD;
+        border: #6DDEDD;
+        width: 100px;
+        height: 50px;
+        border-radius: 25px;
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: progress;
+    }
+
+    .login {
+        padding-left: 1150px;
+        color: #8b8787;
+        font-size: 18px;
+        cursor: progress;
+    }
+
+    #feature {
+        color: #8b8787;
+        padding-top: 12px;
+        font-size: 17px;
+        padding-left: 30px;
+    }
+
+    #price {
+        color: #8b8787;
+        padding-top: 12px;
+        font-size: 17px;
+    }
+
+    #resource {
+        color: #8b8787;
+        padding-top: 12px;
+        font-size: 17px;
+    }
+
+    .containt {
+        color: #8b8787;
+    }
+
+    .link {
+        border-color: white;
+        height: 85px;
+        width: 750px;
+        background-color: #3A3054;
+        border-radius: 10px;
+        padding-top: 20px;
+        margin-left: 500px;
+        margin-top: 50px;
+        padding-bottom: 10px;
+        position: relative;
+        top: 145px;
+    }
+
+    .shorten {
+        padding-left: 40px;
+        width: 350px;
+        height: 30px;
+        margin: 20px 10px 20px 10px;
+        border-radius: 10px;
+        background-color: white;
+        margin-left: 50px;
+        padding-right: 5px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        border-color: whitesmoke;
+
+
+
+    }
+
+    .it {
+        width: 150px;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: 120px;
+        background-color: #2BD0CF;
+        color: white;
+        font-size: 18px;
+        border-color: #2BD0CF;
+        cursor: pointer;
+
+
+    }
+
+    /*secondpart start from here!!*/
+    .secondpart {
+
+        height: 120vh;
+        background-color: whitesmoke;
+    }
+
+    .link-1 {
+
+        margin-top: 90px;
+        background-color: white;
+        width: 740px;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 5px 15px 5px;
+        margin-left: 500px;
+        border-radius: 10px;
+        position: relative;
+        top: 80px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    .link-1 button {
+        background-color: #6DDEDD;
+        border-color: #ffffff;
+        border-radius: 10px;
+        width: 110px;
+        height: 50px;
+        color: white;
+    }
+
+    .link-2 {
+
+        margin-top: 90px;
+        background-color: white;
+        width: 740px;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 5px 15px 5px;
+        margin-left: 500px;
+        border-radius: 10px;
+        position: relative;
+        top: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 30px;
+
+    }
+
+    .link-2 button {
+        background-color: #6DDEDD;
+        border-color: #ffffff;
+        border-radius: 10px;
+        width: 110px;
+        height: 50px;
+        color: white;
+
+    }
+
+    .link-3 {
+
+        margin-top: 90px;
+        background-color: white;
+        width: 740px;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px 5px 15px 5px;
+        margin-left: 500px;
+        border-radius: 10px;
+        position: relative;
+        top: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    .link-3 button {
+        background-color: #6DDEDD;
+        border-color: #ffffff;
+        border-radius: 10px;
+        width: 110px;
+        height: 50px;
+        color: white;
+
+
+    }
+
+    .thirdpart {
+        margin-left: 700px;
+        margin-top: 200px;
+
+    }
+
+    .thirdpart p {
+
+        height: 50px;
+        padding-left: 60px;
+        padding-top: 50px;
+        margin-top: -70px;
+        margin-left: -80px;
+        font-size: 20px;
+    }
+
+    .thirdpart h1 {
+        font-size: 45px;
+    }
+
+    .details {
+
+        height: 200px;
+        width: 500px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin-left: 90px;
+    }
+
+
+
+    .image {
+        border: 2px solid black;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: black;
+        margin-left: 110px;
+        position: relative;
+        top: 40px;
+
+
+    }
+
+    .detail-1 {
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    .image-2 {
+        border: 2px solid black;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: black;
+        margin-left: 110px;
+        position: relative;
+        top: -210px;
+        position: relative;
+        left: 535px;
+
+    }
+
+    .image-3 {
+        border: 2px solid black;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: black;
+        margin-left: 180px;
+        position: relative;
+        top: -180px;
+        position: relative;
+        left: -120px;
+        margin-right: -108px;
+    }
+
+    .detail-2 {
+        padding-left: 30px;
+        padding-top: 40px;
+
+
+    }
+
+    .detail-3 {
+        padding-left: 30px;
+        padding-top: 40px;
+    }
+
+    .details-2 {
+        height: 200px;
+        width: 500px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin-left: 430px;
+
+        margin-top: -170px;
+
+    }
+
+    .details-3 {
+        height: 200px;
+        width: 500px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin-left: -115px;
+        margin-top: -140px;
+
+    }
+
+    /* third section start from here */
+
+    .thirdsection {
+        color: white;
+        height: 50vh;
+        background-color: white;
+        text-align: center;
+        padding-top: 70px;
+        background-color: #4B3F6B;
+        font-size: px;
+        height: 200px;
+    }
+
+    .getbutton {
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: #2BD0CF;
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 15px;
+        border: #2BD0CF;
+        cursor: pointer;
+    }
+
+
+
+    /* Last section start from here */
+    .lastpart {
+        border: 1px solid black;
+        height: 35vh;
+        background-color: #232126;
+    }
+
+    .features {
+        color: white;
+        padding-left: 700px;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .l-1 {
+        color: #8b8787;
+    }
+
+    .Resources {
+        position: relative;
+        left: 180px;
+        bottom: 232px;
+    }
+
+    .l-2 {
+        color: #8b8787;
+    }
+
+    .Company {
+        position: relative;
+        left: 360px;
+        bottom: 389px;
+    }
+
+    .facebook {
+        position: relative;
+        bottom: 660px;
+        left: 1500px;
+        cursor: grab;
+    }
+
+    .twitter {
+        position: relative;
+        bottom: 685px;
+        left: 1560px;
+        cursor: grab;
+    }
+
+    .pinterest {
+        position: relative;
+        bottom: 710px;
+        left: 1610px;
+        cursor: grab;
+    }
+
+    .instagram {
+        position: relative;
+        bottom: 737px;
+        left: 1665px;
+        cursor: grab;
+    }

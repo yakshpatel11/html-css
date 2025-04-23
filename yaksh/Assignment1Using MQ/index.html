@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @media screen and (min-width : 1024px) {
+        .box1 {
+            background-color: yellow;
+            width: 1800px;
+        }
+    }
+
+    @media screen and (min-width : 1024px) {
+        .box2 {
+            background-color: red;
+            width: 3500px;
+            height: 1140px;
+        }
+
+    }
+
+    @media screen and (min-width : 1024px) {
+        .box3 {
+            background-color: rgb(82, 219, 89);
+            width: 3500px;
+            height: 1140px;
+        }
+        
+    }
+@media  screen and (min-width : 1024px) {
+    .box {
+        display: flex;
+    }
+    
+}
+
+    @media screen and (min-width : 320px) and (max-width : 767px) {
+        .box1 {
+            background-color: yellow;
+            width: 728px;
+            font-size: 20px;
+           
+        }
+    }
+
+    @media screen and (min-width : 320px) and (max-width : 767px) {
+        .box2 {
+            background-color: red;
+            width: 728px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    @media screen and  (min-width : 320px) and (max-width : 767px)  {
+        .box3 {
+            background-color: rgb(82, 219, 89);
+            width: 728px;
+            height: 200px;
+        }
+        
+    }
+
+
+
+
+    .mainbox {
+        margin-left: 25px;
+    }
+
+    .box1 {
+        padding-top: 10px;
+        margin-top: 25px;
+       height: 15px;
+      
+        padding-bottom: 5PX;
+        margin-bottom: 8px;
+    }
+
+   
+
+
+    .box {
+        
+       
+        gap: 20px;
+    }
+</style>
+
+<body>
+    <div class="mainbox">
+        <div class="box1">Navigation</div>
+        <div class="box">
+            <div class="box2">LEFT BOX</div>
+            <div class="box3">RIGHT BOX</div>
+        </div>
+    </div>
+</body>
+
+</html>
